@@ -10,6 +10,11 @@
     "eject": "expo eject"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8fc0e6e (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
     "@react-native-community/masked-view": "^0.1.11",
     "expo": "~44.0.0",
     "expo-constants": "~13.0.1",
@@ -22,10 +27,33 @@
     "react-native-reanimated": "~2.3.1",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.10.1",
+=======
+    "@react-native-community/masked-view": "0.1.10",
+    "expo": "41",
+    "expo-constants": "~10.1.3",
+    "expo-status-bar": "~1.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-elements": "2.2.1",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.1.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.0.0",
+>>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
     "react-native-web": "0.17.1",
     "react-navigation": "4",
     "react-navigation-drawer": "^2.7.2",
     "react-navigation-stack": "^1.10.3"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    "react-native-web": "0.17.1"
+>>>>>>> dfec4c5 (Created a new Expo app)
+=======
+>>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
+>>>>>>> 8fc0e6e (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
