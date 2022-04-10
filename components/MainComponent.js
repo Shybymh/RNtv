@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import Home from './HomeComponent';
 import Directory from './DirectoryComponent';
 import CampsiteInfo from './CampsiteInfoComponent';
-<<<<<<< HEAD
-import Constants from 'expo-constants';
-import { View, Platform } from 'react-native';
-import { createStackNavigator } from 'react-navigation-stack';
-import { createDrawerNavigator } from 'react-navigation-drawer';
-import { createAppContainer } from 'react-navigation';
-=======
 import About from './AboutComponent';
 import Contact from './ContactComponent';
 import Constants from 'expo-constants';
@@ -18,14 +11,10 @@ import { createDrawerNavigator, DrawerItems } from 'react-navigation-drawer';
 import { createAppContainer } from 'react-navigation';
 import { Icon } from 'react-native-elements';
 import SafeAreaView  from 'react-native-safe-area-view';
->>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
 
 
 const DirectoryNavigator = createStackNavigator(
     {
-<<<<<<< HEAD
-        Directory: { screen: Directory },
-=======
         Directory: { 
             screen: Directory,
             navigationOptions: ({navigation}) => ({
@@ -37,7 +26,6 @@ const DirectoryNavigator = createStackNavigator(
                 />
             })
         },
->>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
         CampsiteInfo: { screen: CampsiteInfo }
     },
     {
@@ -59,36 +47,13 @@ const HomeNavigator = createStackNavigator(
         Home: { screen: Home }
     },
     {
-<<<<<<< HEAD
-        
-        defaultNavigationOptions: {
-=======
         defaultNavigationOptions: ({navigation}) => ({
->>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
             headerStyle: {
                 backgroundColor: '#5637DD'
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
                 color: '#fff'
-<<<<<<< HEAD
-            }
-        }
-    }
-);
-
-const MainNavigator = createDrawerNavigator(
-    {
-        Home: { screen: HomeNavigator },
-        Directory: { screen: DirectoryNavigator }
-    },
-    {
-        drawerBackgroundColor: '#CEC8FF'
-    }
-);
-
-const AppNavigator = createAppContainer(MainNavigator);
-=======
             },
             headerLeft: <Icon
                 name='home'
@@ -234,32 +199,20 @@ const MainNavigator = createDrawerNavigator(
 );
 
 const AppNavigator = createAppContainer(MainNavigator)
->>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
 
 class Main extends Component {
     render() {
         return (
-<<<<<<< HEAD
-            <View 
-                style={{
-                    flex: 1,
-                    paddingTop: Platform.OS === 'ios' ? 0 : Constants.statusBarHeight
-                }}
-            >
-=======
             <View style={{
                 flex: 1,
                 paddingTop: Platform.OS === 'ios' ? 0 : Constants.statusBarHeight
             }}>
->>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
                 <AppNavigator />
             </View>
         );
     }
 }
 
-<<<<<<< HEAD
-=======
 const styles = StyleSheet.create({
     container: {
         flex: 1
@@ -289,5 +242,4 @@ const styles = StyleSheet.create({
     }
 });
 
->>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
 export default Main;

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-import React, { Component } from "react";
-import { View, Text } from "react-native";
-
-class Home extends Component{
-=======
 import React, { Component } from 'react';
 import { View, Text, ScrollView } from 'react-native';
 import { Card } from 'react-native-elements';
@@ -39,7 +33,6 @@ class Home extends Component {
             partners: PARTNERS
         }
     }
->>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
 
     static navigationOptions = {
         title: 'Home'
@@ -47,11 +40,6 @@ class Home extends Component {
 
     render() {
         return (
-<<<<<<< HEAD
-            <View>
-                <Text>Home Component</Text>
-            </View>
-=======
             <ScrollView>
                 <RenderItem
                 item={this.state.campsites.filter(campsite => campsite.featured)[0]}
@@ -63,7 +51,6 @@ class Home extends Component {
                     item={this.state.partners.filter(partner => partner.featured)[0]}
                 />
             </ScrollView>
->>>>>>> b2d1ca1 (About and Contact components added. Icons, favorites, comments, Custom side drawer and Navigation icons added)
         );
     }
 }
