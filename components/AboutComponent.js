@@ -84,7 +84,6 @@ class About extends Component {
             </ScrollView>
         );
     }
-
 }
 
 export default connect(mapStateToProps)(About);
